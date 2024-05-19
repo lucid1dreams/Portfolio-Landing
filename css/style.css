@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'THICCCBOI';
+    src: url('fonts/TTF/THICCCBOI-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'THICCCBOI';
+    src: url('fonts/TTF/THICCCBOI-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'THICCCBOI';
+    src: url('fonts/TTF/THICCCBOI-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'THICCCBOI', sans-serif;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: linear-gradient(108.34deg, #1e6a7d 4.55%, #034079 95.45%);
+    color: #717376;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* ------- navbar start create ------------*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 1px;
+}
+
+
+.logo {
+    width: 33px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.nav-links {
+    font-family: 'THICCCBOI', sans-serif;
+    font-weight: 600;
+    /* Полужирный шрифт */
+    display: flex;
+    gap: 20px;
+    color: #1b1c23;
+    font-weight: 500;
+    white-space: nowrap;
+    margin: auto 0;
+    text-decoration: none;
+}
+
+
+a.nav-link:hover,
+a.nav-link:focus {
+    color: #ff694b;
+}
+
+.nav-link {
+    font-family: THICCCBOI, sans-serif;
+    color: #000000;
+
+    text-decoration: none;
+}
+
+.active {
+    color: #ff694b;
+}
+
+.cta-button {
+    font-family: THICCCBOI, sans-serif;
+    font-weight: 600;
+    background-color: #ff694b;
+    color: #fff;
+    padding: 20px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+    box-shadow: 0px 12px 30px 0px rgba(255, 105, 75, 0.35);
+}
+
+
+/* ------- navbar end  ------------*/
+
+/* ------- intro banner start create ------------*/
+
+.designer-info {
+    align-self: start;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: var(--Primary-Color, #ff694b);
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+
+.designer-info-line {
+    border: 1px solid rgba(255, 105, 75, 1);
+    background-color: #ff694b;
+    width: 50px;
+    height: 1px;
+    margin: auto 0;
+}
+
+.designer-info-text {
+    font-family: THICCCBOI, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.hero-title {
+    margin-top: 34px;
+    font: 700 80px THICCCBOI, sans-serif;
+}
+
+
+.hero-description {
+    display: flex;
+    margin-top: 61px;
+    gap: 19px;
+    font-size: 24px;
+    color: var(--Body-Text, #757683);
+    line-height: 38px;
+}
+
+
+
+.hero-description-line {
+    border: 1px solid rgba(200, 200, 200, 1);
+    background-color: #c8c8c8;
+    width: 1px;
+    height: 131px;
+}
+
+.hero-description-text {
+    font-family: THICCCBOI, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    max-width: 556px;
+}
+
+
+
+.HMN-button {
+    align-self: start;
+    display: flex;
+    margin-top: 62px;
+    gap: 15px;
+    font-size: 18px;
+}
+
