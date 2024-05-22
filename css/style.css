@@ -204,3 +204,57 @@ a.nav-link:focus {
     font-size: 18px;
 }
 
+/* ------- portfolio start create ------------*/
+
+.pictures {
+    display: flex;
+    margin-bottom: 90px;
+    margin-top: 160px;
+}
+
+.product-design-section,
+.ui-ux-design-section {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+}
+
+.product-design-content,
+.ui-ux-design-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 59px 55px 0;
+}
+
+.product-design-content {
+    background-color: #fdf5ef;
+}
+
+.ui-ux-design-content {
+    background-color: #f3f1fa;
+    margin-left: 20px;
+}
+
+.section-subtitle {
+    color: #757683;
+    font: 500 18px THICCCBOI, sans-serif;
+}
+
+.section-title {
+    color: #1b1c23;
+    margin-top: 19px;
+    font: 600 28px/40px THICCCBOI, sans-serif;
+}
+
+.section-image {
+    aspect-ratio: 1.27;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    margin-top: 71px;
+}
+
+/* portfolio end */
