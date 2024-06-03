@@ -258,3 +258,421 @@ a.nav-link:focus {
 }
 
 /* portfolio end */
+
+
+/* блок с женщиной*/
+
+.stat {
+    margin-top: 160px;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.image {
+    aspect-ratio: 1.11;
+    object-fit: auto;
+    width: 100%;
+}
+
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    padding: 0 20px;
+}
+
+
+.title {
+    color: var(--Dark, #1b1c23);
+    font: 700 48px/62px THICCCBOI, sans-serif;
+}
+
+
+.features {
+    margin-top: 70px;
+}
+
+
+.feature {
+    display: flex;
+    gap: 20px;
+}
+
+
+.feature-number {
+    background-color: var(--Primary-Color, #ff694b);
+    color: var(--White, #fff);
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font: 500 20px THICCCBOI, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-title {
+    color: var(--Dark, #1b1c23);
+    font: 700 24px THICCCBOI, sans-serif;
+}
+
+.feature-description {
+    color: var(--Body-Text, #757683);
+    margin-top: 19px;
+    font: 500 16px/26px THICCCBOI, sans-serif;
+}
+
+.statistics {
+    display: flex;
+    margin-top: -90px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+/* .values  {
+    display: flex;
+    gap: 14px;
+} */
+
+.values-number {
+    color: var(--Dark, #1b1c23);
+    font: 700 48px THICCCBOI, sans-serif;
+}
+
+
+.values-description {
+    color: var(--Body-Text, #757683);
+    font: 500 18px/24px THICCCBOI, sans-serif;
+}
+
+.values {
+    display: flex;
+    margin-top: 160px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* ----------конец блока с женщиной-------------- */
+
+.service {
+    margin-top: 160px;
+    height: 1020px;
+    width: 100%;
+    /* background-color: #F8F8F8; вот такой надо */
+    background-color: #a09d9d;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.service-block-1 {
+    position: relative;
+    max-width: 420px;
+    max-height: 290px;
+    background-color: #fff;
+    margin-left: 100px;
+
+
+}
+
+
+/* карточки */
+
+.wrapper {
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+.flex-row {
+    gap: 20px;
+    display: flex;
+}
+
+
+.column,
+.column-2,
+.column-3,
+.column-4,
+.column-5 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+
+
+.our-services {
+    font: 600 48px / 62px THICCCBOI, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* padding-top: 100px; */
+}
+
+
+.card {
+    box-shadow: 0 10px 30px 0 rgba(228, 228, 228, 0.25);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 54px 55px;
+    margin-top: 30px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 23px;
+    color: #1b1c23;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+
+.text-upper {
+    font-family: THICCCBOI, sans-serif;
+}
+
+.description {
+    color: #757683;
+    margin-top: 34px;
+    font: 500 18px/30px THICCCBOI, sans-serif;
+}
+
+.card-img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 50px;
+    align-self: start;
+}
+
+.footer-img {
+    aspect-ratio: 5.26;
+    object-fit: auto;
+    object-position: center;
+    width: 47px;
+    margin-top: 39px;
+}
+
+/* .explore-button {
+    box-shadow: 0px 12px 30px 0px rgba(255, 105, 75, 0.35);
+    background-color: #ff694b;
+    align-self: center;
+    z-index: 3;
+    margin-top: -30px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 22px 36px;
+    font: 600 18px THICCCBOI, sans-serif;
+    border-width: 30px;
+    border-color: #fff;
+    border: none;
+}
+
+@media (max-width: 991px) {
+    .explore-button {
+        padding: 0 20px;
+    }
+} */
+
+.explore {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.explore-button {
+    background-color: #ff694b;
+    align-self: center;
+    z-index: 3;
+    margin-top: -30px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 22px 36px;
+    font: 600 18px THICCCBOI, sans-serif;
+    /* border-width: 30px;
+    border-color: #fff; */
+    border: 20px solid #fff;
+}
+
+/* начало блока с компьютером */
+
+.backGraund {
+    background: url(../img/BackG-black.jpg);
+    height: 520px;
+    margin-top: 160px;
+}
+
+.computer-picture {
+    padding-left: 70px;
+}
+
+.cta-title {
+    /* font-family: 700 48px THICCCBOI, sans-serif; */
+    color: #fff;
+    font-family: 'THICCCBOI', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.computer-filling {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+
+
+.cta-subtitle {
+    /* font-family: 700 48px THICCCBOI, sans-serif; */
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'THICCCBOI', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+
+
+.cta-description {
+    color: #a6a7ae;
+    margin-top: 40px;
+    font: 500 18px THICCCBOI, sans-serif;
+    color: #A6A7AE;
+}
+
+
+
+.cta-button {
+    background-color: #ff694b;
+    align-self: start;
+    margin-top: 40px;
+    color: var(--White, #fff);
+    text-align: center;
+    justify-content: center;
+    padding: 24px 35px;
+    font: 600 18px THICCCBOI, sans-serif;
+}
+
+.git-btn {
+    margin-top: 80px;
+}
+
+.call-to-action {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ 
+/* конец блока с компьютером */
+
+/* блок с текстом начало */
+
+.text-HU {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.text-b {
+    /* font-family: THICCCBOI, sans-serif;
+    line-height: 64px; */
+    font-family: 'THICCCBOI', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    max-width: 745px;
+    text-align: center;
+}
+
+
+
+.text-b-2 {
+    margin-top: 24px;
+    font-family: 'THICCCBOI', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    max-width: 745px;
+    text-align: center;
+}
+
+
+.cta-wrapper {
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+    color: #ff694b;
+}
+
+
+
+.cta-text {
+    font-family: 'THICCCBOI', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    max-width: 745px;
+}
+
+/* блок с тектом конец */
+
+
+/* начало блока с контактами */
+.backGraund-contact {
+    background: url(../img/BackG-contact.jpg);
+    height: 680px;
+    margin-top: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    color: #899098;
+    text-align: center;
+    font-family: THICCCBOI, sans-serif;
+    align-self: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
